@@ -1,0 +1,7 @@
+![image](https://github.com/jinsungtoo/SQL_Coding_test/assets/115756142/864cb205-38bc-4ec5-84c2-ea2d988ac502)
+
+
+    SELECT PRODUCT_ID, PRODUCT_NAME, PRODUCT_CD, CATEGORY, PRICE
+    FROM FOOD_PRODUCT
+    ORDER BY PRICE DESC
+    LIMIT 1
