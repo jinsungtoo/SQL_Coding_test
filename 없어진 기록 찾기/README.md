@@ -1,0 +1,8 @@
+![image](https://github.com/jinsungtoo/SQL_Coding_test/assets/115756142/710c5a21-eaec-4910-ad88-c4174cb81f4c)
+
+
+    SELECT O.ANIMAL_ID, O.NAME
+    FROM ANIMAL_INS AS I
+    RIGHT JOIN ANIMAL_OUTS AS O ON I.ANIMAL_ID = O.ANIMAL_ID
+    WHERE I.ANIMAL_ID IS NULL
+    ORDER BY O.ANIMAL_ID ASC 
