@@ -1,0 +1,9 @@
+![image](https://github.com/user-attachments/assets/a682feb1-69df-4054-9913-700e9105396e)
+
+
+    SELECT SUM(SCORE) AS SCORE, E.EMP_NO, E.EMP_NAME, E.POSITION, E.EMAIL
+    FROM HR_EMPLOYEES AS E, HR_GRADE AS G
+    WHERE E.EMP_NO = G.EMP_NO
+    GROUP BY G.EMP_NO
+    ORDER BY SCORE DESC
+    LIMIT 1
